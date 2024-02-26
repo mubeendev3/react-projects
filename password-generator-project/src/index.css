@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Select the text */
+::selection {
+    background-color: #3AB795; /* Change this to the desired color */
+    color: #000; /* Change this to the desired text color */
+}
+
+/* Optionally, to change the highlight color of input and textarea */
+input::selection,
+textarea::selection {
+    background-color: #3AB795; /* Change this to the desired color */
+    color: #000; /* Change this to the desired text color */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.custom-range {
+    width: 85px; /* Adjust the width as needed */
+  }
